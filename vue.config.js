@@ -6,7 +6,7 @@ module.exports = {
     // Enable CSS source maps.
     sourceMap: process.env.NODE_ENV !== 'production',
   },
-  configureWebpack: {
+  /*configureWebpack: {
     plugins: [
       new PrerenderSPAPlugin({
         indexPath: path.resolve('dist/index.html'),
@@ -30,5 +30,5 @@ module.exports = {
         minRatio: 0.8,
       }),
     ],
-  },
+  },*/
 }
